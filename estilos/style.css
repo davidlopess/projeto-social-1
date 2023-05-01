@@ -21,11 +21,12 @@ body{
 
 main{
     position: relative;
+   
     height: 100vh;
     width: 100vw;
 }
 
-section#telefone{
+ section#telefone{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,9 +34,10 @@ section#telefone{
 
     width: 311px;
     height: 627px;
-    background: url(../imagens/frame-iphone.png)
-    no-repeat; 
-}
+    background: url(../imagens/frame-iphone.png); 
+    background-repeat: no-repeat;
+    
+} 
 
 iframe#tela{
     position: relative;
@@ -43,4 +45,31 @@ iframe#tela{
     left: 23px;
     width: 265px;
     height: 470px;
+   
 }
+
+section#redes{
+    text-align:right;
+    padding-top: 150px;
+    margin-right: 150px;
+   
+    
+    
+    
+}
+
+section#redes a img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.627);
+
+}
+
+section#redes  img:hover{
+    border: 3px solid rgb(220, 218, 218);
+    transform: translate(-3px, -5px);
+    box-shadow: 15px 15px 20px  solid rgb(0, 0, 0);
+    transition: 0.3s;
+    
+} 
