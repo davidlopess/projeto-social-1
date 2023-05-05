@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+   
+}
+
+body{
+    background-color: rgb(175, 4, 4);
+}
+ img{
+    width: 100vw;
+  
+}
+
+a{
+    display: block;
+    padding: 20px;
+    background-color: rgb(175, 4, 4);
+    text-align: center;
+    font-weight: bolder;
+    width: 100vw;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover{
+    background-color: rgb(206, 6, 6);
+    transition: 0.3s;
+
+}
